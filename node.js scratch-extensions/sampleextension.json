@@ -1,0 +1,9 @@
+{ 
+	"extensionName": "Sample Extension",
+	"extensionPort": 12345,
+	"blockSpecs": [
+		[" ", "write %s to console", "write", "hello world"],
+		["r", "π", "PI"],
+		["r", "random number", "random"],
+	]
+}

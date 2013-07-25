@@ -1,0 +1,13 @@
+{
+  "extensionName": "MIDI Test",
+  "extensionPort": 17801,
+  "blockSpecs": [
+	[" ", "note on %d.note vel %n chan %n",	"noteOn", 60, 80, 0],
+	[" ", "note off %d.note chan %n",	"noteOff", 60, 0],
+	[" ", "pitch bend %n chan %n",		"pitchBend", 8192, 0],
+	[" ", "set controller %n to %n chan %n", "controller", 10, 127, 0],
+	[" ", "set instrument to %n chan %n",	"program", 0, 0],
+	[" ", "turn all notes off",		"midiReset"],
+	[" ", "use java synthesizer %b",	"useJavaSynth"],
+	["r", "midi time",			"time"],
+]}

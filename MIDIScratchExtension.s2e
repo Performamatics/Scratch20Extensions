@@ -1,0 +1,16 @@
+{  "extensionName": "MIDI Scratch",
+   "extensionPort": 17801,
+   "blockSpecs": [
+	[" ", "note %n on for %n velocity on channel %n", "noteOn", 60, 100, 0],
+	[" ", "note %n off on channel %n", "noteOff", 60, 0],
+	[" ", "set controller %n to %n on channel %n", "controller", 10, 64, 0],
+	[" ", "set instrument to %n on channel %n", "program", 1, 0],
+	[" ", "set pitch bend %n on %n channel", "pitchBend", 8192.0, 0],
+	[" ", "use java synth %b?", "useJavaSynth"],
+	[" ", "turn all notes off", "midiReset"],
+	]  
+}
+
+/* Experimental MIDI Scratch Extension Blocks inspired by Eric Rosenbaum and built by Alex Ruthmann. 
+Performamatics @ NYU - http://experiencingaudio.org/  
+*/
